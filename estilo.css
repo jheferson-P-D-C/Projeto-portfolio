@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+:root{
+    --color1: #191919;
+    --color2: #111;
+    --color3: #1e1e1e;
+    --color4: #22fe22;
+}
+body{
+    background-color: var(--color1);
+    color: white;
+}
+.conteudos{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+}
+.cabecalho{
+    background-image: url("https://www.hostmidia.com.br/img/blog/upload/xg-o-que-e-tecnologia.jpg");
+    background-size: cover;
+    position: static;
+}
+.fundo{
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0.6), black);
+}
+.cabecalho h1{
+    padding: 40px;
+    padding-bottom: 3px;
+}
+#Jeff{
+    color: var(--color4);
+}
+.cabecalho nav{
+    background-color: var(--color3);
+    margin-top: 20px;
+    padding: 10px 0px;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+}
+.cabecalho nav a{
+    margin-left: 50px;
+    color: white;
+}
+.conteudo1{
+    margin: 70px 30px 0px 30px;
+    max-width: 1000px;
+    padding: 20px;
+    background-color: var(--color2);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.conteudo1 > div{
+    max-width: 500px;
+}
+.conteudo1 > .Perfil{
+    margin-left: 20vw;
+}
+.Perfil .foto{
+    border-radius: 500px;
+    border: 2px solid var(--color4);
+}
+.conteudo1 h1{
+    padding: 10px 0px 30px 0px;
+    border-top: 2px solid;
+}
+.conteudo1 p{
+    margin-top: 10px;
+}
+.fa-regular{
+    padding-bottom: 10px;
+}
+#paragrafo-conhecimento{
+    font-weight: 900;
+}
+.informacoes h1{
+    color: var(--color4);
+}
+.Conhecimento i{
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 30px;
+}
+.conteudo2{
+    margin: 70px 10vw 0px 10vw;
+    padding: 20px;
+    max-width: 700px;
+    background-image: url("https://media.licdn.com/dms/image/D4D12AQHctecepz-q4A/article-cover_image-shrink_720_1280/0/1686167387036?e=2147483647&v=beta&t=53_dHSknBK5jo9en9dVy2O03su7W9Ix7ClRmbREM83I");
+    background-size: cover;
+    border-radius: 10px;
+    display: flex;
+}
+
+.trabalhos{
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+    padding: 100px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+}
+.trabalhos div{
+    margin: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: var(--color1);
+    border: 1px solid var(--color4);
+    border-radius: 10px;
+}
+.trabalhos > h1{
+    border-bottom: 2px solid var(--color4);
+}
+.trabalhos div > p{
+    margin-bottom: 15px;
+}
